@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DocumentStupid Coaching answer</title>
+  </head>
+  <body>
+    <h1>Stupid Coaching</h1>
+    <div class="print" id="question">
+      <p><%= @input %></p>
+      <p><em>- You</em></p>
+    </div>
+    <div  class="print" id="answer">
+      <p id="message"><%= @message %></p>
+      <p><em>- Your coach</em></p>
+    </div>
+    <div>
+      <%= link_to "Ask a new question", ask_path %>
+    </div>
+  </body>
+</html>
